@@ -1,4 +1,4 @@
-# <TITLE>
+# Echinometra Hox analysis 
  Principal Investigator: Joseph Ryan, Remi Ketchum, Adam Reitzel  
  Draft or Version Number: v.0.1  
  Date: 28 September 2021  
@@ -18,7 +18,6 @@ first version
   *Patiria miniata*
   *Parastichopus parvimensis*
   *Holothuria glaberrima*
-  *Ophiothrix spiculata*
   *Homo sapiens*
   *Drosophila melanogaster*
   *Branchiostoma floridae*
@@ -34,7 +33,7 @@ We will use the curated HomeoDB (Zhong et al, 2008) to assemble HOXL subclass ho
   *Drosophila melanogaster*, and *Tribolium castaneum*. We will include the spiralia Hox/ParaHox homeodomains *Capitella teleta* and 
   *Crassostrea gigas* (as classified in Paps et al, 2015 and Zwarycz et al, 2015). We will use hd60.hmm hidden Markov model from Zwarycz et al (2015) 
   to search transcriptomes from the following:  *Echinometra sp. EZ*, *Strongylocentrotus purpuratus*, *Lytechinus variegatus*, *Eucidaris tribuloides*, 
-  *Patiria miniata*, *Parastichopus parvimensis*, *Holothuria glaberrima*, *Ophiothrix spiculata*. NOTE: we will remove the three Hox3-related genes of 
+  *Patiria miniata*, *Parastichopus parvimensis*, *Holothuria glaberrima*. NOTE: we will remove the three Hox3-related genes of 
   *Drosophila melanogaster* (zen1, zen2, and bicoid) as they are known to be highly derived relative to the ancestral Hox3 sequence as was done in Ryan et al (2007).
 
 This script runs hmmsearch, stockholm2fasta, and some custom code to remove indels and fill end gaps.
