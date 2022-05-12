@@ -54,6 +54,8 @@ This script takes a prefix of a subset of (our ingroup) taxa and will return an 
 make_subalignment --tree=<newick_treefile> --aln=<phylip_alignment> --root=<root_taxa> --pre=<prefix>
 ```
 
+### 2.4 Here we removed three S. purpuratus sequences (XP_011675355, XP_011682234, and XP_011682243), which were copies of three other sequences (NP_999816, NP_999774, and XP_793141 respectively) 
+
 ### 2.5 Run final ML tree
 ```
 iqtree -m [best-fit_model]+G4 -s [alignment_file] -pre [prefix] -bb 1000
@@ -76,7 +78,7 @@ iqtree -m [best-fit_model]+G4 -s [alignment_file] -pre [prefix] -bb 1000
 ## APPENDIX
 
 Version&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Date&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Significant Revisions  
-1.1  
+1.1  May 12, 2022  added 2.4
 1.2  
 1.3  
 1.4  
